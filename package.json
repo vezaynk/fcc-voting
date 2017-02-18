@@ -1,0 +1,21 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "Hello world express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.0",
+    "express-session": "^1.15.1",
+    "passport": "^0.3.2"
+  }
+}
