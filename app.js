@@ -26,7 +26,7 @@ passport.deserializeUser(function (user, done) {
 passport.use(new FacebookStrategy({
   clientID: "1615569928454922",
   clientSecret: "63fdba9b3dad66b0fd18b04f13f4eac6",
-  callbackURL: "http://localhost:3000/auth/facebook/callback"
+  callbackURL: "https://fcc-voting-slava.herokuapp.com/auth/facebook/callback"
 },
   function (accessToken, refreshToken, profile, done) {
     if (profile) {
